@@ -2,6 +2,7 @@ body{
     background: #212121 !important;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 h2.Display{
@@ -20,10 +21,11 @@ button{
     outline: none;
 }
 
-div.Div{
+div.container{
     display: block;
     margin: auto;
     text-align: center;
+    background: orangered;
 }
 
 button:hover{
