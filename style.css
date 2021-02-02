@@ -3,6 +3,7 @@ body{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
+    margin: 0;
 }
 
 h2.Display{
@@ -10,32 +11,43 @@ h2.Display{
     font-size: 50px;
     transition: transform 2s ease-out;
     margin: 5px;
+    font-size: 90px;
 }
 
 h2.frozen{
     /* transform: translateY(-1500%); */
     /* transform: translateY(-3150%); */
-    transform: translateY(-2025%);
+    transform: translateY(-2500%);
 }
 
-button{
+button.getNum {
     background-color: #f4f4f4;
-    border: 0;
     border-radius: 3px;
     color: #000;
     margin: auto;
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
     outline: none;
+    width: 153px;
+    height: 51px;
+    border: 0;
+    text-align: center;
+    margin-top: 50px;
+    /* text-align: -webkit-match-parent; */
+    justify-content: center;
+    font-weight: 600;
+    padding: 12px;
 }
 
 div.container{
     display: block;
     margin: auto;
     text-align: center;
-    background: orangered;
-    height: 100px;
-    margin-top: 25%;
+    background: #ecb67e;
+    height: 150px;
+    margin-top: 23%;
+    overflow: hidden;
+    width: 100%;
 }
 
 button:hover{
