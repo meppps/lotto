@@ -11,13 +11,13 @@ h2.Display{
     font-size: 50px;
     transition: transform 2s ease-out;
     margin: 5px;
-    font-size: 90px;
+    font-size: 252px;
 }
 
 h2.frozen{
     /* transform: translateY(-1500%); */
     /* transform: translateY(-3150%); */
-    transform: translateY(-2500%);
+    transform: translateY(-2431%);
 }
 
 button.getNum {
@@ -26,10 +26,10 @@ button.getNum {
     color: #000;
     margin: auto;
     display: flex;
-    font-size: 22px;
+    font-size: 38px;
     outline: none;
-    width: 153px;
-    height: 51px;
+    width: 253px;
+    height: 70px;
     border: 0;
     text-align: center;
     margin-top: 50px;
@@ -44,8 +44,8 @@ div.container{
     margin: auto;
     text-align: center;
     background: #ecb67e;
-    height: 150px;
-    margin-top: 23%;
+    height: 450px;
+    margin-top: 15%;
     overflow: hidden;
     width: 100%;
 }
